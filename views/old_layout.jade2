@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    block content
+    block footer
+      footer
+        .container
+          p
+            | Copyright &copy; 2016 | Issues? Submit to 
+            a(href="https://github.com/muhdchoaib/inventory/issues") GitHub
+            | .
